@@ -1,0 +1,139 @@
+.addPost {
+    display: block;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.selectedImage {
+    width: 100%;
+    height: 100%;
+    background: #080808
+}
+
+.imageSelectContainer {
+    width: 100%;
+    height: 150px;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.slider .imageWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imageSelectContainer {
+    height: 200px;
+    position: absolute;
+    z-index: 3;
+    width: calc(100% - 30px);
+    top: 0;
+    bottom: 110px;
+    margin: auto;
+    left: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .imageSelectContainer {
+      height: 300px;
+    }
+  }
+
+.imageSelectContainer input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    z-index: 2;
+}
+
+.imageSelectContainer .selecter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.postDescription {
+    position: absolute;
+    z-index: 3;
+    width: calc(100% - 30px);
+    height: 90px;
+    bottom: 120px;
+    left: 15px;
+}
+
+.postDescription textarea {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    font-size: 15px;
+    resize: none;
+    background: #ffffff33;
+    border: none;
+    border-radius: 10px;
+    color: #000;
+    backdrop-filter: blur(15px);
+}
+
+.postDescription textarea::placeholder {
+    color: #000;
+}
+
+.shareButton {
+    position: absolute;
+    left: 15px;
+    bottom: 45px;
+    border-radius: 10px;
+    width: calc(100% - 30px);
+    height: 60px;
+    background-color: #0094f7;
+    font-weight: 600;
+    z-index: 3;
+}
+
+.loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: #0000006b;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.closeButton {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    z-index: 3;
+}

@@ -1,0 +1,16 @@
+.slider img {
+  width: 100%;
+  object-fit: contain;
+  max-height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .slider img {
+    border-radius: 10px;
+  }
+}
+.imageWrapper {
+  width: 100%;
+  display: inherit;
+  max-height: 500px;
+}

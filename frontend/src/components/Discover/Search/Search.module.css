@@ -1,0 +1,24 @@
+.searchBox {
+  position: sticky;
+  top: 0;
+  padding: 10px 10px;
+  background-color: #ffffffe0;
+  backdrop-filter: blur(10px);
+}
+.searchInputWrapper {
+  display: flex;
+  gap: 20px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #eeeeef;
+  align-items: center;
+  padding-left: 20px;
+}
+.searchInputWrapper img {
+}
+.searchInputWrapper input {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  font-size: 16px;
+}

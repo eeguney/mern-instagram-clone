@@ -1,0 +1,156 @@
+.signUpContainer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signUpContainer .center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    flex: 1;
+    gap: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .signUpContainer .center {
+      width: 400px;
+    }
+  }
+
+.signUpContainer img {
+    width: 150px;
+}
+
+.signUpContainer .changeMode {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #cfcfcf;
+    color: #8b8b8b;
+    background: #fff!important;
+}
+
+.changeMode span {
+    color: #043a68;
+    font-weight: 600;
+}
+
+.tab {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.tab header {
+    display: flex;
+    border-bottom: 1px solid #cfcfcf;
+}
+
+.tab header label {
+    font-size: 15px;
+    color: #a1a1a1;
+    font-weight: 500;
+    padding: 15px;
+    flex: 1;
+    text-align: center;
+}
+
+.tab header .active {
+    color: #555555;
+    border-bottom: 2px solid #555555;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 20px;
+    width: 100%;
+}
+
+section input {
+    border-radius: 5px;
+    border: 2px solid #ededed;
+    background-color: #fafafa;
+    font-size: 15px;
+    flex: 1;
+    padding: 15px;
+}
+
+.submit, .submitHidden {
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+    font-size: 15px;
+    background-color: #0094f7;
+    color: white;
+    text-align: center;
+}
+
+.uploadButton {
+    position: relative;
+    width: 100%;   
+}
+
+.uploadButton input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.disabled {
+    background-color: #b0defc;
+    color: #dff2ff;
+}
+
+.formContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.componentTitle {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.error {
+    font-size: 13px;
+    color: black;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.error::before {
+    content: "!";
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.formContainer p {
+    font-size: 14px;
+    color: #626262;
+    margin-bottom: 30px;
+}
+
+.photoContinue {
+    margin-top: 20px;
+}
+
+.w_100 {
+    width: 100%;
+}

@@ -1,0 +1,109 @@
+.storySlider {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  background: #000000;
+  backdrop-filter: blur(3px);
+  animation: showStory 0.2s ease;
+}
+
+.storyOverlay {
+    width: 100%;
+    height: 100%;
+}
+
+.storyOverlay .storyBack {
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  position: relative;
+  background-color: #000000c7;
+}
+
+.closeButton {
+  filter: drop-shadow(0px 0px 11px #777);
+}
+
+@media screen and (min-width: 768px) {
+  .storyOverlay {
+    padding: 20px;
+  }
+  .storyBack {
+    border-radius: 15px;
+    box-shadow: 1px 0px 42px -5px #000000a8;
+  }
+}
+
+.storyOverlay header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.storyOverlay .user {
+  display: flex;
+  gap: 15px;
+}
+
+.user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 999px;
+}
+
+.user .userInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userInfo label {
+  font-weight: 600;
+  color: white;
+  text-shadow: 0px 0px 4px #222;
+}
+
+.userInfo span {
+  font-size: 13px;
+  color: white;
+  text-shadow: 0px 0px 4px #222;
+}
+
+@keyframes showStory {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.storyBack .description {
+  position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    margin: auto;
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    max-width: 80%;
+    padding: 10px 15px;
+    background: #00000059;
+    backdrop-filter: blur(5px);
+    z-index: 5;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}

@@ -1,0 +1,92 @@
+.stories {
+  max-width: 100%;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  flex-grow: 1;
+  display: grid;
+  gap: 10px;
+  grid-auto-columns: 80px;
+  grid-auto-flow: column;
+  padding-left: 10px;
+  touch-action: pan-x;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #efefef;
+}
+
+.stories:hover::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+}
+
+.stories::-webkit-scrollbar {
+  height: 2px;
+}
+
+.stories::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+.stories::-webkit-scrollbar-thumb {
+  background-color: #e8e8e8;
+}
+
+.stories .item {
+  border-radius: 999px;
+  padding: 2px;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stories .itemAdd .inner {
+  background: transparent!important;
+  position: relative;
+}
+
+.itemAdd .inner:after {
+  content: "+";
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: white;
+  border: 2px solid #ffffff;
+  background-color: #0094f7;
+  border-radius: 999px;
+}
+
+.item .inner {
+  background: linear-gradient(#f4ac5f, #d42668);
+  width: 75px;
+  height: 75px;
+  border-radius: 999px;
+  padding: 2px;
+}
+
+.item:hover {
+  transform: scale(0.9);
+}
+
+.item span {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  background-color: white;
+  padding: 3px;
+}
+
+.thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.item label {
+  margin-top: 7px;
+  float: left;
+  font-size: 13px;
+}

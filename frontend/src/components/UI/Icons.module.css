@@ -1,0 +1,50 @@
+.add, .activity, .messenger {
+    width: 37px;
+    position: relative;
+}
+
+.hasNotification:after {
+    content: "1";
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 999px;
+    background-color: #ee4a58;
+    color: white;
+    font-weight: 600;
+}
+
+.add img, .activity img, .messenger img, .home img, .profile img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile img {
+    border-radius: 999px;
+    object-fit: cover;
+}
+
+.verticalThreeDots {
+    width: 40px;
+}
+
+.verticalThreeDots img {
+    width: 100%;
+}
+
+.home {
+    width: 25px;
+    padding: 0;
+}
+
+.profile {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    border-radius: 999px;
+}

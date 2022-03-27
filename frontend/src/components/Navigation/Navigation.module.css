@@ -1,0 +1,23 @@
+.navigation {
+    position: fixed;
+    bottom: 0;
+    height: 65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: white;
+    z-index: 999;
+    border-color: #efefef;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+}
+
+@media screen and (min-width: 768px) {
+    .navigation {
+      width: 768px;
+    }
+  }
