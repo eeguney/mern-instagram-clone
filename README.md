@@ -4,7 +4,7 @@ A mernstack Instagram clone app built in React.JS and Node.js.
 
 ## Take a look;
 
-Here is [DEMO](https://mern-instagram-clone.netlify.app/)!
+Here is [DEMO](https://mern-react-instagram-clone.netlify.app/)!
 
 ![DEMO](assets/DEMO.gif)
 
