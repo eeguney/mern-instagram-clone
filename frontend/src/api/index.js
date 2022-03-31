@@ -4,7 +4,7 @@ import { CLOUDNAME } from "../constants/Cloudinary";
 const token = localStorage.getItem("token");
 
 const APIwHeader = axios.create({
-  baseURL: "http://192.168.1.7:5000/api",
+  baseURL: "YOUR_API_ADRESS/api,
   withCredentials: false,
   headers: {
     Accept: "application/json",
@@ -14,7 +14,7 @@ const APIwHeader = axios.create({
 });
 
 const API = axios.create({
-  baseURL: "http://192.168.1.7:5000/api",
+  baseURL: "YOUR_API_ADRESS/api",
   withCredentials: false,
 });
 
