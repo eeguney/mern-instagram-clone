@@ -1,5 +1,42 @@
 # Mern Fullstack Instagram Clone
 
+An Mern Instagram clone app built in React.JS and Node.js
+
+## Take a look;
+
+Here is [DEMO](https://mern-instagram-clone.netlify.app/)!
+
+![DEMO](assets/DEMO.gif)
+
+## Specs;
+
+- Sign up and sign in,
+- Add posts and stories,
+- Listing latest posts and stories,
+- And much more...
+
+## Built with;
+
+- [React](https://tr.reactjs.org/)
+- [React Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Redux](https://redux.js.org/)
+- [React Router](https://reactrouter.com/)
+- [Swiper](https://swiperjs.com/)
+- [MongoDB](https://mongodb.com/)
+- [Express](https://expressjs.com/)
+- [NodeJS](https://nodejs.org/)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
+- [JWT](https://jwt.io/)
+- [CryptoJS](https://www.npmjs.com/search?q=cryptojs)
+- [Axios](https://axios-http.com/)
+- [Body Parser](https://www.npmjs.com/package/body-parser)
+
+## Contributing;
+
+- If you have problems please leave an issue from [here](https://github.com/eeguney/mern-instagram-clone/issues/)
+- Consider forking the project and submitting new pull requests. I am much likely control [my github account](https://github.com/eeguney/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
