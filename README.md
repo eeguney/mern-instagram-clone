@@ -1,6 +1,6 @@
 # Mern Fullstack Instagram Clone
 
-A Mernstack Instagram clone app built in React.JS and Node.js.
+A mernstack Instagram clone app built in React.JS and Node.js.
 
 ## Take a look;
 
